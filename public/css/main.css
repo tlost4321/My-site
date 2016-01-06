@@ -1,0 +1,18 @@
+html {
+	background-image: url(../images/forest.jpeg);
+	color: white;
+	text-align: center;
+	text-shadow:   
+	-1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
+.main-space {
+	background-color: rgba(89,89,89,0.7);
+}
+.project-list{
+	list-style-type: none;
+	text-decoration: none;
+}
