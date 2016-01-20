@@ -14,7 +14,7 @@ app.use(express.static(__dirname + '/public'));
 
 // Routes \\
 app.get('/', function(req, res){
-  res.send('Hello')
+  res.sendFile('../html/index.html')
 });
 
 // Creating Server and Listening for Connections \\
