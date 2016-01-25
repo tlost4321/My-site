@@ -1,5 +1,5 @@
 html {
-	background-image: url(../images/forest.jpeg);
+	/*background-image: url(../images/forest.jpeg);*/
 	background-color: rgb(38, 106, 46);
 	color: white;
 	text-align: center;
@@ -8,6 +8,8 @@ html {
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
+    background-size: cover;
+    background-attachment: fixed;
 }
 body{
 	/*background-color: #ffffff;*/
