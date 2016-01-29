@@ -8,8 +8,8 @@ html {
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
-    background-size: cover;
-    background-attachment: fixed;
+    /*background-size: cover;*/
+    /*background-attachment: fixed;*/
 }
 body{
 	/*background-color: #ffffff;*/
@@ -17,7 +17,7 @@ body{
 .main-space {
 	background-color: rgba(89,89,89,0.7);
 }
-.project-list{
+.list{
 	list-style-type: none;
 	text-decoration: none;
 	background-color: rgba(89,89,89,0.7);
