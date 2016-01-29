@@ -1,6 +1,6 @@
 html {
 	/*background-image: url(../images/forest.jpeg);*/
-	background-color: rgb(38, 106, 46);
+	background-color: #607D8B;
 	color: white;
 	text-align: center;
 	text-shadow:   
@@ -8,18 +8,26 @@ html {
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
-    /*background-size: cover;*/
+    /*background-size: cover;
     /*background-attachment: fixed;*/
 }
 body{
 	/*background-color: #ffffff;*/
 }
 .main-space {
-	background-color: rgba(89,89,89,0.7);
+	/*background-color: rgba(89,89,89,0.7);*/
 }
 .list{
 	list-style-type: none;
 	text-decoration: none;
-	background-color: rgba(89,89,89,0.7);
+	/*background-color: rgba(89,89,89,0.7);*/
 	
+}
+md-content.md-default-theme, md-content{
+	color: white;
+	background-color: transparent;
+}
+img {
+	width: 70vw;
+	height: 40vw;
 }
