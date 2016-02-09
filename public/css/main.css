@@ -39,3 +39,15 @@ md-content.md-default-theme, md-content{
 	height:40vw;
 	width:100vw;
 }
+.tag{
+	background-color: white;
+}
+span{
+	color:white;
+}
+.height{
+	width: 160px;
+	height: 28px;
+	border : 1px solid #4875B4;
+	/*margin-left: 10vw;*/
+}

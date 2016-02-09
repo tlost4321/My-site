@@ -6,7 +6,7 @@
 <script src="../../bower_components/angular/angular.js" type="text/javascript" ></script>
 	
 
-	<title class="md-accent">TLostInSpace in Space</title>
+	<title>TLostInSpace in Space</title>
 </head>
 <body ng-controller="meController" class="md-primary">
 <div class="header md-primary">
@@ -21,7 +21,7 @@
 <div ng-cloak>
   <md-content class="md-primary hue-1">
     <md-tabs md-dynamic-height md-border-bottom class="md-accent">
-      <md-tab label="Experience" class="xp">
+      <md-tab label="Experience">
         <md-content class="md-padding md-accent">
 <div layout="row">
 <div flex="70" flex-offset="15">
@@ -34,12 +34,12 @@
 <p class="md-accent">The reason I gravitate towards those companies is because I believe that people that have a passion for what they do, do a better job and they have more fun doing it. When the atmosphere is a happy one, everything runs more smooothly. I feel that I am good at creating a happy and relaxing environment with the groups I work with, even in the most stressful of situations.</p>
 
 
-<h4 class="md-accent">If you would like to read more about my work experience please head over to my linkedIn page.</h4> <a href="https://www.linkedin.com/pub/taran-ostenson/89/638/449">
+<h4 class="md-accent">If you would like to read more about my work experience please head over to my linkedIn page.</h4> <a flex="90" href="https://www.linkedin.com/pub/taran-ostenson/89/638/449">
       
           <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Taran Ostenson's profile on LinkedIn">
         
     </a>
-    <md-button class="md-raised">
+    <md-button class="md-raised height">
 <a href="https://github.com/tlost4321">
 	<img src="../images/github_logo.png">
 	</a>
@@ -101,42 +101,13 @@
           <h1 class="md-display-2">Technologies</h1>
 	<h2>The different technologies that I am comfortable with are...</h2>
 	<ul class="list">
-		<li><h3>HTML5</h3>
-			<!-- <img src=""> -->
+		<li flex="80" ng-repeat="tech in techs">
+		<h3>
+			<img flex="20" class="tag" src="{{tech.image}}">{{tech.name}}</h3>
+			<h4>This is a {{tech.type}} technology</h4>
 		</li>
 
-		<li><h3>CSS 3</h3>
-			<!-- <img src=""> -->
-		</li>
-
-		<li><h3>Javascrip</h3>
-			<!-- <img src=""> -->
-		</li>
-
-		<li><h3>AngularJS</h3> 
-			<!-- <img src=""> -->
-		</li>
-
-		<li><h3>NodeJS</h3>	
-			<!-- <img src=""> -->
-		</li>
-
-		<li><h3>ExpressJS</h3>
-			<!-- <img src=""> -->
-		</li>
-
-		<li><h3>MongoDB</h3>
-				<!-- <img src=""> -->
-		</li>
-
-		<li><h3>Bootstrap</h3>
-			<!-- <img src=""> -->
-		</li>
-
-		<li><h3>SQL DBs</h3>
-				<!-- <img src=""> -->
-		</li>
-
+		
 
 	</ul>
 	</div>
@@ -156,8 +127,7 @@
 
 
 
-ADD IN TOAST NOTIFICATION
-ICON PROVIDER
+
 RIPPLE????
 </body>
 </html>
