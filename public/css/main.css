@@ -1,15 +1,17 @@
 html {
+	background-image: url(../images/sky.jpeg);
 	/*background-image: url(../images/forest.jpeg);*/
-	background-color: #424242;
+	/*background-color: #424242;*/
+	background-color: #212121;
 	color: white;
-	text-align: center;
+	/*text-align: center;*/
 	text-shadow:   
 	-1px -1px 0 #000000,
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
-    /*background-size: cover;
-    /*background-attachment: fixed;*/
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .list{
@@ -21,12 +23,19 @@ md-content.md-default-theme, md-content{
 	color: white;
 	background-color: transparent;
 }
-img {
-	width: 70vw;
+.me{
+	height:20vw;
+}
+.img {
+	/*width: 70vw;*/
 	height: 40vw;
+	max-width: 70vw;
 }
 .header{
-	background-image: url(../images/sky.jpeg);
-	background-size: 100vw 50vh;
+	text-align: center;
 
+}
+.vid{
+	height:40vw;
+	width:100vw;
 }
