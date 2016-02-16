@@ -12,29 +12,49 @@
 <div class="header md-primary">
 <h1 class="md-primary">TLostInSpace Out Of This World</h1>
 
+<img src="../images/me2.jpg">
 <h3>HI!! My name is Taran!</h3>
-<h4>I am a web designer and developer</h4>
-		<md-button class="md-accent" ng-href="../text/resume.pdf">Available for Hire</md-button>
+<h4>I am a web designer and developer located in Boulder, CO.</h4>
+		<md-button class="md-accent" ng-href="../text/resume.pdf">Available for Hire!</md-button>
 </div>
 
 
-<div ng-cloak>
+<div ng-cloak class="bkgrnd">
   <md-content class="md-primary hue-1">
     <md-tabs md-dynamic-height md-border-bottom class="md-accent">
+    	<md-tab label="About Me">
+        <md-content class="md-padding md-accent">
+<div layout="row">
+<div flex="70" flex-offset="15">
+
+         <!-- <h1>Taran Ostenson</h1> -->
+          <h1 class="md-display-2">About Me
+         </h1>
+
+          <p>My work experience is heavily filled with Customer Service roles. The places I have gravitated towards later in my experience are companies that have a passion for something. Whether that be helping them find the perfect outfit, or making sure that all of the passengers have a great and safe experience getting to the airport. </p>
+
+<p>The reason I gravitate towards those companies is because I believe that people that have a passion for what they do, do a better job and they have more fun doing it. When the atmosphere is a happy one, everything runs more smooothly. I feel that I am good at creating a happy and relaxing environment with the groups I work with, even in the most stressful of situations.</p>
+
+
+
+
+
       <md-tab label="Experience">
         <md-content class="md-padding md-accent">
 <div layout="row">
 <div flex="70" flex-offset="15">
-<!-- <div layout="row">
-<img class="me" src="../images/me.jpg" flex="30">
-</div> -->
+
           <h1 class="md-display-2">Experience</h1>
-<p class="md-accent">My work experience is heavily filled with Customer Service roles. The places I have gravitated towards later in my experience are companies that have a passion for something. Whether that be helping them find the perfect outfit, or making sure that all of the passengers have a great and safe experience getting to the airport. </p>
-
-<p class="md-accent">The reason I gravitate towards those companies is because I believe that people that have a passion for what they do, do a better job and they have more fun doing it. When the atmosphere is a happy one, everything runs more smooothly. I feel that I am good at creating a happy and relaxing environment with the groups I work with, even in the most stressful of situations.</p>
 
 
-<h4 class="md-accent">If you would like to read more about my work experience please head over to my linkedIn page.</h4> <a flex="90" href="https://www.linkedin.com/pub/taran-ostenson/89/638/449">
+
+
+<p>MY experience with Web Development and Design started in August of last year when I attended RefactorU in Boulder, CO.</p>
+<p>At RefactorU I studied Web Development focusing on MEAN stack technologies. These include Javascript and it's framework AngularJS. While in class I worked on many different assignments including my midterm and final project called Boulder BrewHub. I created the app to help beer lovers find the right brewery to head to for that special beer they are craving. For more information on that project please go to the projects tab for the details.</p>
+
+<p>Since the program ended in November I have been working on a few other side projects and learning as much as I can about the technologies I know, as well as others I would like to learn.</p>
+
+<h4>Feel free to check out my LinkedIn and Github pages by clicking the links below.</h4> <a flex="90" href="https://www.linkedin.com/pub/taran-ostenson/89/638/449">
       
           <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Taran Ostenson's profile on LinkedIn">
         
@@ -87,7 +107,7 @@
 		<img class="img" flex="90" src="../images/str/str3.png" alt="">
 
 	</li>
-	<li class="list"><h1><u>Somm Study App</u></h1></li>
+	<!-- <li class="list"><h1><u>Somm Study App</u></h1></li> -->
 </ul> 
 </div>
 </div>
@@ -103,8 +123,8 @@
 	<ul class="list">
 		<li flex="80" ng-repeat="tech in techs">
 		<h3>
-			<img flex="20" class="tag" src="{{tech.image}}">{{tech.name}}</h3>
-			<h4>This is a {{tech.type}} technology</h4>
+			<img flex="20" class="tag" src="{{tech.image}}"></h3>
+			<h4>Which is a {{tech.type}} technology</h4>
 		</li>
 
 		
@@ -128,6 +148,6 @@
 
 
 
-RIPPLE????
+
 </body>
 </html>
