@@ -2,7 +2,7 @@
 // Requires \\
 var express = require('express');
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose')
+// var mongoose = require('mongoose')
 
 // Create Express App Object \\
 var app = express();
@@ -14,7 +14,7 @@ app.use(express.static(__dirname + '/public'));
 
 // Routes \\
 app.get('/', function(req, res){
-  res.sendFile('../html/index.html')
+  res.sendFile('/html/index.html', {root : './public'})
 });
 
 // Creating Server and Listening for Connections \\

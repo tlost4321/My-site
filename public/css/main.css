@@ -11,6 +11,10 @@ html {
     background-size: cover;
     background-attachment: fixed;
 }
+body{
+	background-color: transparent;
+	color: white;
+}
 .bkgrnd {
 	background-color: rgba(33, 33, 33, 0.7);
 
